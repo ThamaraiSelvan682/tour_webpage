@@ -33,10 +33,6 @@ ul.header-content {
 }
 
 
-
-
-
-
 .header-content li a {
   color: white;
   text-decoration: none;
@@ -51,21 +47,6 @@ ul.header-content li a:hover {
   background-color: grey;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section1 {
   position: relative;
@@ -564,14 +545,12 @@ p,
   color: white;
 } */
 
-/* new css */
+/* new css 
 .boxes {
   /* margin-top: 30px; */
-  /* border: 1px solid red; */
-}
+/* border: 1px solid red; */
 
-
-.text-boxes {
+*/ .text-boxes {
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
