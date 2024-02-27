@@ -82,18 +82,25 @@ ul.header-content li a:hover {
 } */
 
 .section2 {
-  padding: 10px;
+  padding: 70px 70px;
   text-align: center;
 
 }
 
-.para1 {
-  color: var(--subheading-text-color);
+.section2 h2 {
+  margin-bottom: 20px;
 }
 
-.para1 p {
-  padding: 10px;
+.para1 .para1-1 {
+  color: grey;
+  margin-bottom: 20px;
 }
+
+
+
+/* .para1 p {
+  padding: 10px;
+} */
 
 .section2 .member-images {
   display: flex;
@@ -153,12 +160,14 @@ ul.header-content li a:hover {
   color: white;
   font-size: 30px;
   /* border:1px solid red; */
-  padding: 10px;
+  /* padding: 10px; */
+  margin-bottom: 30px;
 }
 
 .tour p {
   color: grey;
-  padding: 10px;
+  /* padding: 10px; */
+  margin-bottom: 30px;
 }
 
 /* .month {
@@ -591,7 +600,7 @@ input#btn-submit {
 }
 
 .section6 {
-  padding: 70px 30px;
+  padding: 50px 30px;
 }
 
 .footer {
@@ -609,7 +618,10 @@ input#btn-submit {
 
 
 .icons a {
-  color: black;
+  color: grey;
+  padding: 5px 5px;
+  font-size: 25px;
+
 }
 
 .icons {
