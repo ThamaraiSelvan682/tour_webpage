@@ -550,7 +550,7 @@ p,
   /* margin-top: 30px; */
 /* border: 1px solid red; */
 
-*/ .text-boxes {
+.text-boxes {
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
