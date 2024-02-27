@@ -585,18 +585,33 @@ input#btn-submit {
 
 
 
-.section5 img {
+.section5 iframe {
   width: 100%;
 
 }
 
-
-.icons {
-  /* display: flex; */
-  text-align: center;
+.section6 {
+  padding: 70px 30px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* .icons {
+  display: flex; 
+  text-align: center;
+} */
 
 
 .icons a {
   color: black;
+}
+
+.icons {
+  margin-bottom: 20px;
 }
