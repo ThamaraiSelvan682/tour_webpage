@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 
 
 }
@@ -82,7 +83,7 @@ ul.header-content li a:hover {
 } */
 
 .section2 {
-  padding: 70px 70px;
+  padding: 100px 70px;
   text-align: center;
 
 }
@@ -120,10 +121,7 @@ ul.header-content li a:hover {
 
 
 .member-images figcaption {
-  /*border:1px solid green;*/
-  /* position: absolute; */
-  top: 0;
-  /* margin-left: 120px; */
+  margin-bottom: 10px;
 
 
 }
@@ -138,7 +136,7 @@ ul.header-content li a:hover {
   /* display: flex; */
   /* flex-direction: column; */
   /* height:1500px; */
-  padding: 60px 40px;
+  padding: 100px 40px;
 
 }
 
@@ -150,7 +148,7 @@ ul.header-content li a:hover {
 }
 
 .images-content {
-  padding: 10px 15px;
+  padding: 20px 15px;
 }
 
 
@@ -340,7 +338,7 @@ ul.header-content li a:hover {
 } */
 
 .month {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: white;
   /* display: flex; */
   /* padding: 10px 20px; */
@@ -474,7 +472,7 @@ p,
 
 
 .section4 {
-  padding: 25px 25px;
+  padding: 80px 25px;
 }
 
 
@@ -585,7 +583,7 @@ p,
 }
 
 input#btn-submit {
-  padding: 5px 5px;
+  padding: 10px 10px;
   background-color: black;
   color: white;
 }
