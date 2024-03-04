@@ -686,10 +686,14 @@ input#btn-submit {
     padding: 50px 25px;
   }
 
+  .first {
+    margin-bottom: 15px;
+  }
 
 
   .addressinput {
     flex-wrap: wrap;
+    padding: 10px 20px;
   }
 
   .addressinput .address {
