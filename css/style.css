@@ -658,14 +658,11 @@ input#btn-submit {
   }
 
   .member-images figure {
-    /* flex-basis: 33%; */
-    width: 100%;
-  }
-
-
-
-
-  .images1 {
     flex-basis: 100%;
   }
+
+
+
+
+
 }
