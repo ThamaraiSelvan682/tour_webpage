@@ -691,6 +691,7 @@ input#btn-submit {
   }
 
 
+
   .addressinput {
     flex-wrap: wrap;
     padding: 10px 20px;
@@ -718,6 +719,58 @@ input#btn-submit {
     flex-basis: 100%;
   }
 
+
+
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) and (max-width:767.98px) {
+
+  /* Losangles image section */
+
+  .section1 h2 {
+    /* position: absolute; */
+    bottom: 32px;
+    color: white;
+    font-size: 18px;
+
+  }
+
+  .section1 h3 {
+    /* position: absolute; */
+    bottom: 10px;
+    color: white;
+    font-size: 12px;
+  }
+
+
+  /* Band section  section2*/
+
+  .section2 {
+    padding: 40px 40px;
+    text-align: center;
+  }
+
+  .section2 .member-images {
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .member-images figure {
+    flex-basis: 100%;
+  }
+
+
+  /* tour dates section 3 */
+  .section3 {
+    padding: 50px 40px;
+  }
+
+  .images1 {
+    flex-basis: 100%;
+  }
 
 
 
