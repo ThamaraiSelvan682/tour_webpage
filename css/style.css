@@ -650,6 +650,18 @@ input#btn-submit {
   }
 
 
+  /* Band section  section2*/
+
+  .section2 {
+    padding: 50px 40px;
+    text-align: center;
+  }
+
+  .member-images figure {
+    /* flex-basis: 33%; */
+    width: 100%;
+  }
+
 
 
 
