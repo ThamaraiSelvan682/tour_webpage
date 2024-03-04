@@ -638,7 +638,7 @@ input#btn-submit {
     /* position: absolute; */
     bottom: 32px;
     color: white;
-    font-size: 19px;
+    font-size: 18px;
 
   }
 
@@ -646,21 +646,70 @@ input#btn-submit {
     /* position: absolute; */
     bottom: 10px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
   /* Band section  section2*/
 
   .section2 {
-    padding: 50px 40px;
+    padding: 40px 40px;
     text-align: center;
+  }
+
+  .section2 .member-images {
+    margin-top: 40px;
+    gap: 50px;
   }
 
   .member-images figure {
     flex-basis: 100%;
   }
 
+
+  /* tour dates section 3 */
+  .section3 {
+    padding: 50px 40px;
+  }
+
+  .images1 {
+    flex-basis: 100%;
+  }
+
+
+
+  /* address section4*/
+  .section4 {
+    padding: 50px 25px;
+  }
+
+
+
+  .addressinput {
+    flex-wrap: wrap;
+  }
+
+  .addressinput .address {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .addressinput .boxes {
+    flex-basis: 100%;
+  }
+
+
+  .text-boxes input[type="text"] {
+    flex-basis: 100%;
+  }
+
+  .text-boxes textarea {
+    flex-basis: 100%;
+  }
 
 
 
