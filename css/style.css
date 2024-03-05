@@ -805,3 +805,61 @@ input#btn-submit {
   }
 
 }
+
+
+
+/*// Medium devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width:991.98px) {
+
+  /* Losangles image section */
+
+  .section1 h2 {
+    /* position: absolute; */
+    bottom: 49px;
+    color: white;
+    font-size: 24px;
+
+  }
+
+  .section1 h3 {
+    /* position: absolute; */
+    bottom: 11px;
+    color: white;
+    font-size: 16px;
+  }
+
+  /* Band section 2 */
+  .section2 {
+    padding: 60px 70px;
+  }
+
+  .section2 .member-images {
+    padding-top: 0px;
+  }
+
+  .member-images figure {
+    flex-basis: 30%;
+  }
+
+  .section2 h2 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .para1 .para1-1 {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+
+  /* tour dates section 3 */
+
+  .section3 {
+    padding: 80px 40px;
+  }
+
+  .tour p {
+    font-size: 17px;
+  }
+}
