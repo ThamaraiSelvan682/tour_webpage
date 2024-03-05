@@ -779,6 +779,29 @@ input#btn-submit {
     flex-basis: 100%;
   }
 
+  /* address section 4 */
+  .section4 {
+    padding: 50px 25px;
+  }
 
+  .first {
+    margin-bottom: 15px;
+  }
+
+  .addressinput {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .addressinput .address {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 
 }
