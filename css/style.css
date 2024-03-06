@@ -314,6 +314,11 @@ nav ul li a:hover {
   border: 0;
 }
 
+.images-content button:hover {
+  background-color: grey;
+  transition: 0.3s ease-in-out;
+}
+
 
 
 
