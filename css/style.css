@@ -17,39 +17,16 @@ img {
   height: auto;
 }
 
+
 .headersection {
   background-color: black;
   padding: 20px 20px;
-  /* position: relative;
-  z-index: 999; */
+
 }
 
 
 
-/* ||  navbar  */
 
-/* label {
-  display: none;
-}
-
-#check-btn,
-#cancel {
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-  color: #fff;
-}
-
-#check {
-  display: none;
-} */
-
-/* ||  navbar  */
-
-/* .nav-content {
-  display: flex;
-  gap: 10px;
-} */
 
 
 .header-content li a {
@@ -71,6 +48,27 @@ nav ul li a:hover {
   background-color: grey;
 
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.header-content {
+  display: flex;
+}
+
+.nav-icon li {
+  list-style-type: none;
+}
+
+.nav-icon {
+  color: #fff;
+}
+
+
+/* section 1 */
 
 .section1 {
   position: relative;
@@ -97,7 +95,7 @@ nav ul li a:hover {
 
 
 
-
+/* section 2 */
 
 .section2 {
   padding: 100px 70px;
@@ -140,6 +138,9 @@ nav ul li a:hover {
 }
 
 
+/* section 3 */
+
+
 .section3 {
   background-color: black;
   padding: 100px 40px;
@@ -173,51 +174,9 @@ nav ul li a:hover {
 
 
 
-/* .month p {
-  margin: 10px 0;
-  position: relative;
-}
-
-.month p:not(:last-child)::after {
-  content: "";
-  border-bottom: 1px solid black;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  bottom: -10px;
-
-}
-
-.month * {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.month p:nth-child(1) {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.month p:nth-child(2) {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.month p:nth-child(3) {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-
-}
 
 
 
-.month a {
-  text-decoration: none;
-  color: grey;
-} */
 
 
 .month {
@@ -320,7 +279,7 @@ nav ul li a:hover {
 }
 
 
-
+/* section 4 */
 
 .section4 {
   padding: 80px 25px;
@@ -400,12 +359,16 @@ input#btn-submit {
 
 
 
+/* section5 */
 
 .section5 iframe {
   width: 100%;
   border: 0;
 
 }
+
+
+/* section 6 */
 
 .section6 {
   padding: 50px 30px;
@@ -432,23 +395,6 @@ input#btn-submit {
   margin-bottom: 20px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-ul.header-content {
-  display: flex;
-}
-
-.nav-icon li {
-  list-style-type: none;
-}
-
-.nav-icon {
-  color: #fff;
-}
 
 
 
@@ -474,7 +420,6 @@ ul.header-content {
 
   /* Los angels image section*/
   .section1 h2 {
-    /* position: absolute; */
     bottom: 32px;
     color: white;
     font-size: 18px;
@@ -482,7 +427,6 @@ ul.header-content {
   }
 
   .section1 h3 {
-    /* position: absolute; */
     bottom: 10px;
     color: white;
     font-size: 12px;
@@ -544,61 +488,6 @@ ul.header-content {
     margin-bottom: 30px;
   }
 
-
-
-  /* ||  navbar  */
-  /* #check-btn {
-    display: block;
-  }
-
-  .headersection ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    left: -100%;
-    top: 70px;
-    text-align: center;
-    transition: 0.5s ease;
-  }
-
-  .headersection ul li {
-    display: block;
-  }
-
-  #check:checked~ul {
-    left: 0;
-  }
-
-  #check:checked~label #check-btn {
-    display: none;
-  }
-
-  #check:checked~label #cancel {
-    display: block;
-  }
-
-  label {
-    display: block;
-  }
-
-  .headersection {
-    position: fixed;
-    width: 100%;
-  }
-
-  ul.header-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 0;
-  } */
-
-  /* ||  navbar  */
-
-
-
-
 }
 
 
@@ -608,7 +497,7 @@ ul.header-content {
   /* Losangles image section */
 
   .section1 h2 {
-    /* position: absolute; */
+
     bottom: 32px;
     color: white;
     font-size: 18px;
@@ -616,7 +505,7 @@ ul.header-content {
   }
 
   .section1 h3 {
-    /* position: absolute; */
+
     bottom: 10px;
     color: white;
     font-size: 12px;
@@ -684,7 +573,7 @@ ul.header-content {
   /* Losangles image section */
 
   .section1 h2 {
-    /* position: absolute; */
+
     bottom: 49px;
     color: white;
     font-size: 24px;
@@ -692,7 +581,7 @@ ul.header-content {
   }
 
   .section1 h3 {
-    /* position: absolute; */
+
     bottom: 11px;
     color: white;
     font-size: 16px;
