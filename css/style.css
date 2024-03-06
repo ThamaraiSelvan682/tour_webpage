@@ -453,7 +453,7 @@ ul.header-content {
 
   /* nav bar section */
   .headersection {
-    padding: 0px 5px;
+    padding: 10px 5px;
   }
 
   .nav-icon {
@@ -465,7 +465,7 @@ ul.header-content {
   }
 
   .header-content li a {
-    padding: 0px 7px;
+    padding: 10px 7px;
   }
 
   /* Los angels image section*/
