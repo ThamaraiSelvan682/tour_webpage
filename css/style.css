@@ -20,18 +20,15 @@ img {
 .headersection {
   background-color: black;
   padding: 20px 20px;
-  position: relative;
-  z-index: 999;
+  /* position: relative;
+  z-index: 999; */
 }
 
-/* ul.header-content {
-  display: flex;
-  justify-content: space-between;
-} */
+
 
 /* ||  navbar  */
 
-label {
+/* label {
   display: none;
 }
 
@@ -45,14 +42,14 @@ label {
 
 #check {
   display: none;
-}
+} */
 
 /* ||  navbar  */
 
-.nav-content {
+/* .nav-content {
   display: flex;
   gap: 10px;
-}
+} */
 
 
 .header-content li a {
@@ -61,11 +58,16 @@ label {
   padding: 20px 20px;
 }
 
+
 ul.header-content li {
   list-style-type: none;
 }
 
-ul.header-content li a:hover {
+.nav-icon li a {
+  padding: 20px 20px;
+}
+
+nav ul li a:hover {
   background-color: grey;
 
 }
@@ -95,13 +97,7 @@ ul.header-content li a:hover {
 
 
 
-/* .section2 {
-  background-color: white;
-  width: min(100% - 100px, 1000px);
-  height: 700px;
-  margin-inline: auto;
 
-} */
 
 .section2 {
   padding: 100px 70px;
@@ -120,9 +116,7 @@ ul.header-content li a:hover {
 
 
 
-/* .para1 p {
-  padding: 10px;
-} */
+
 
 .section2 .member-images {
   display: flex;
@@ -133,9 +127,7 @@ ul.header-content li a:hover {
   flex-wrap: wrap;
 }
 
-/* .member-images figure {
-  width: 100%;
-} */
+
 .member-images figure {
   flex-basis: 33%;
 }
@@ -150,13 +142,6 @@ ul.header-content li a:hover {
 
 .section3 {
   background-color: black;
-  /* align-items: center; */
-  /* text-align: center; */
-  /* justify-content: center; */
-
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* height:1500px; */
   padding: 100px 40px;
 
 }
@@ -178,28 +163,17 @@ ul.header-content li a:hover {
 .tour h2 {
   color: white;
   font-size: 30px;
-  /* border:1px solid red; */
-  /* padding: 10px; */
   margin-bottom: 30px;
 }
 
 .tour p {
   color: grey;
-  /* padding: 10px; */
   margin-bottom: 30px;
 }
 
-/* .month {
-  
-  
-  background-color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
 
-}
 
-.month p {
+/* .month p {
   margin: 10px 0;
   position: relative;
 }
@@ -245,126 +219,15 @@ ul.header-content li a:hover {
   color: grey;
 } */
 
-/* .month ul li{
-  list-style-type: none;
-} */
-
-
-/* .month li:nth-child(1)::after{
-  content:"Sold out";
-  background-color: red;
-  color:white;
-  font-weight:bold;
-  padding-top:4px;
-  padding-bottom:4px;
-  padding-right:5px;
-  padding-left:5px;
-  margin-left:10px;
- 
-} */
-/* .month .sold {
-  background-color: red;
-  color: white;
-  font-weight: bold;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-right: 5px;
-  padding-left: 5px;
-
-}
- */
-
-
-
-
-
-/* .month li:nth-child(2)::after{
- 
-  background-color: red;
-  color:white;
-  font-weight:bold;
-  padding-top:4px;
-  padding-bottom:4px;
-  padding-right:5px;
-  padding-left:5px;
-  margin-left:10px;
-  /* text-align: left;
-  align-items: end; */
-
-
-/* .month li {
-   margin: 50px 0; /* Add space between each paragraph */
-/* position: relative; */
-/* } */
-
-/* .month li:not(:last-child)::after {
- content: "";
- position: absolute;
- bottom: -10px; /* Adjust the value to place the line properly */
-/* left: 0;
- width: 100%;
- border-bottom: 1px solid #000; /* Add a line separator */
-/* } */
-/* .month li:nth-child(2){
- display: flex;
- justify-content:space-between;
- 
- 
-} */
-
-/* .two{
- padding: 60px; 
- background-color: red;
- color:white;
- font-weight:bold;
- padding-top:4px;
- padding-bottom:4px;
- padding-right:5px;
- padding-left:5px;
- /* margin-left:10px;
-} */
-
-
-/* .month li:nth-child(3){
- display: flex;
- justify-content:space-between;
- 
-} */
-
-
-
-
-
-/* .three{
-  margin-left: 500px;
-  background-color: black;
-  border-radius:50%;
-  height:50px;
-  width:50px;
-  color:white;
-} */
-/* .month p:nth-child(3) {
-  display: flex;
-  justify-content: space-between;
-}
-
-.three {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  color: white;
-  background-color: black;
-  text-align: center;
-  align-items: center;
-} */
 
 .month {
-  /* border: 1px solid red; */
   background-color: white;
-  /* display: flex; */
-  /* padding: 10px 20px; */
   margin-bottom: 25px;
 
+}
+
+.month p {
+  color: grey;
 }
 
 .month1 {
@@ -380,6 +243,7 @@ ul.header-content li a:hover {
   margin-left: 20px;
   background-color: red;
   padding: 5px 10px;
+  color: #fff;
 }
 
 .month3 {
@@ -417,7 +281,7 @@ ul.header-content li a:hover {
   background-color: white;
   flex-basis: 30%;
 
-  /* margin:0 0px; */
+
 }
 
 
@@ -427,33 +291,8 @@ ul.header-content li a:hover {
 
 }
 
-/* .newyorkimg{ */
-/* border:1px solid red; */
-/* margin-right: 10px; */
-/* background-color: white; */
-/* }  */
 
 
-/* .parisimg{ */
-/* border:1px solid red; */
-/* background-color: white; */
-/* margin-right: 10px; */
-
-/* } */
-/* .sanfranimg{ */
-/* border:1px solid red; */
-/* background-color: white; */
-/* } */
-
-
-
-/* .parisimg img{
-  width:100%;
-}
-
-.sanfranimg img{
-  width:100%;
-}*/
 .images-content p {
   margin-bottom: 15px;
 }
@@ -475,22 +314,7 @@ ul.header-content li a:hover {
   border: 0;
 }
 
-/* .image-container button {
-  margin-left: 10px;
-  margin-bottom: 5px;
-  background-color: black;
-  color: white;
-  padding: 5px;
-} */
 
-/* .image-container h2,
-p,
-.para {
-  margin-left: px;
-  padding: 10px;
-
-
-} */
 
 
 .section4 {
@@ -509,27 +333,20 @@ p,
 }
 
 .first h2 {
-  /* padding: 20px 10px;
-   */
   margin-bottom: 25px;
 }
 
 .first p {
-  /* padding: 20px 10px; */
   margin-bottom: 25px;
   color: grey;
 }
 
-/* .section4 * {
-  padding-top: 10px;
-  padding-bottom: 10px;
-} */
+
 
 .addressinput {
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
-  /* flex-wrap: wrap; */
 }
 
 .address p {
@@ -541,58 +358,22 @@ p,
   margin-right: 10px;
 }
 
-/* old css 
-.boxes1 input {
-  padding: 10px 200px 10px 10px;
-  margin-bottom: 10px;
-}
 
-.boxes input[type="text"] {
-  padding: 10px 10px;
-  /* margin-bottom: 10px; */
-/* } */
 
-/* .text-boxes {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-} */
 
-/* .boxes input::placeholder {
-  padding: 10px;
-} */
-
-/* .boxes{
-  display: flex;
-  flex-direction: column;
-} */
-
-/* .boxes button {
-  display: flex;
-  padding: 5px 10px 5px 10px;
-  background-color: black;
-  color: white;
-} */
 
 /* new css 
-.boxes {
-  /* margin-top: 30px; */
-/* border: 1px solid red; */
+ */
 
 .text-boxes {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 10px;
-  /* justify-content: space-between; */
 }
 
 .text-boxes input[type="text"] {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* display: inline-block; */
+
   flex-basis: 100%;
-  /* margin-bottom: 10px; */
   padding: 5px 5px;
 }
 
@@ -633,10 +414,6 @@ input#btn-submit {
 }
 
 
-/* .icons {
-  display: flex; 
-  text-align: center;
-} */
 
 
 .icons a {
@@ -673,6 +450,23 @@ ul.header-content {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+  /* nav bar section */
+  .headersection {
+    padding: 0px 5px;
+  }
+
+  .nav-icon {
+    font-size: 10px;
+  }
+
+  ul.header-content {
+    font-size: 10px;
+  }
+
+  .header-content li a {
+    padding: 0px 7px;
+  }
 
   /* Los angels image section*/
   .section1 h2 {
@@ -730,11 +524,6 @@ ul.header-content {
 
 
 
-  /* .addressinput {
-    flex-wrap: wrap;
-    padding: 10px 20px;
-  } */
-
   .addressinput {
     flex-wrap: wrap;
     padding: 10px 20px;
@@ -751,21 +540,10 @@ ul.header-content {
     margin-bottom: 30px;
   }
 
-  /* .addressinput .boxes {
-    flex-basis: 100%;
-  }
 
-
-  .text-boxes input[type="text"] {
-    flex-basis: 100%;
-  }
-
-  .text-boxes textarea {
-    flex-basis: 100%;
-  } */
 
   /* ||  navbar  */
-  #check-btn {
+  /* #check-btn {
     display: block;
   }
 
@@ -810,7 +588,7 @@ ul.header-content {
     flex-direction: column;
     gap: 20px;
     padding: 20px 0;
-  }
+  } */
 
   /* ||  navbar  */
 
