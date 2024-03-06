@@ -430,6 +430,7 @@ input#btn-submit {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 ul.header-content {
@@ -460,12 +461,10 @@ ul.header-content {
     font-size: 10px;
   }
 
-  ul.header-content {
-    font-size: 12px;
-  }
 
   .header-content li a {
-    padding: 10px 7px;
+    padding: 12px 12px;
+    font-size: 14px;
   }
 
   /* Los angels image section*/
