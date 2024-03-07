@@ -79,7 +79,7 @@ ul.nav-content {
 
 .section1 img {
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .section1 h2 {
@@ -435,7 +435,7 @@ input#btn-submit {
 
   /* Los angels image section*/
   .section1 h2 {
-    bottom: 36px;
+    bottom: 43px;
     color: white;
     font-size: 18px;
 
