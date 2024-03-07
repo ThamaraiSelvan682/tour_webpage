@@ -29,14 +29,14 @@ img {
 
 
 
-.header-content li a {
+.nav-content li a {
   color: white;
   text-decoration: none;
   padding: 20px 20px;
 }
 
 
-ul.header-content li {
+ul.nav-content li {
   list-style-type: none;
 }
 
@@ -55,7 +55,7 @@ nav {
   align-items: center;
 }
 
-ul.header-content {
+ul.nav-content {
   display: flex;
 }
 
@@ -97,13 +97,13 @@ ul.header-content {
 
 /* section 2 */
 
-.section2 {
+.Band-section {
   padding: 100px 70px;
   text-align: center;
 
 }
 
-.section2 h2 {
+.Band-section h2 {
   margin-bottom: 20px;
 }
 
@@ -116,7 +116,7 @@ ul.header-content {
 
 
 
-.section2 .member-images {
+.Band-section .member-images {
   display: flex;
   padding-top: 30px;
   margin-top: 50px;
@@ -205,6 +205,10 @@ ul.header-content {
   color: #fff;
 }
 
+.month1 .para1:hover {
+  background-color: grey;
+}
+
 .month3 {
   display: flex;
   justify-content: space-between;
@@ -224,6 +228,10 @@ ul.header-content {
 
 }
 
+.month3 .para2:hover {
+  background-color: grey;
+
+}
 
 .images {
   display: flex;
@@ -356,6 +364,10 @@ input#btn-submit {
   border: 0;
 }
 
+.boxes input#btn-submit:hover {
+  background-color: grey;
+}
+
 
 
 
@@ -403,6 +415,8 @@ input#btn-submit {
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+
+
   /* nav bar section */
   .headersection {
     padding: 10px 5px;
@@ -413,7 +427,7 @@ input#btn-submit {
   }
 
 
-  .header-content li a {
+  .nav-content li a {
     padding: 12px 12px;
     font-size: 14px;
   }
@@ -435,12 +449,12 @@ input#btn-submit {
 
   /* Band section  section2*/
 
-  .section2 {
+  .Band-section {
     padding: 40px 40px;
     text-align: center;
   }
 
-  .section2 .member-images {
+  .Band-section .member-images {
     margin-top: 40px;
     gap: 50px;
   }
@@ -514,12 +528,12 @@ input#btn-submit {
 
   /* Band section  section2*/
 
-  .section2 {
+  .Band-section {
     padding: 40px 40px;
     text-align: center;
   }
 
-  .section2 .member-images {
+  .Band-section .member-images {
     margin-top: 40px;
     gap: 50px;
   }
@@ -588,11 +602,11 @@ input#btn-submit {
   }
 
   /* Band section 2 */
-  .section2 {
+  .Band-section {
     padding: 60px 70px;
   }
 
-  .section2 .member-images {
+  .Band-section .member-images {
     padding-top: 0px;
   }
 
@@ -600,7 +614,7 @@ input#btn-submit {
     flex-basis: 30%;
   }
 
-  .section2 h2 {
+  .Band-section h2 {
     margin-bottom: 30px;
     font-size: 25px;
   }
